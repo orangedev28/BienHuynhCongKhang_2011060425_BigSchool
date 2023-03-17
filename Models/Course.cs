@@ -11,7 +11,7 @@ namespace BienHuynhCongKhang_2011060425_Week3.Models
     {
         public int Id { get; set; }
 
-        public ApplicationUser Lecturer { get; set; }
+        public ApplicationUser Lecturer { get; set; } // luu thong tin cua 1 giang vien (id, place, ...)
 
         [Required]
         public string LecturerId { get; set; }
