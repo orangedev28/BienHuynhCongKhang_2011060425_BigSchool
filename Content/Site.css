@@ -36,6 +36,7 @@ textarea {
 
 .course {
     list-style: none;
+    margin-top: 10px;
 }
 
 .course > li {
@@ -56,3 +57,7 @@ textarea {
     top: 0;
     left: 70px;
 }
+
+    .course > li .details span {
+        display: block;
+    }
