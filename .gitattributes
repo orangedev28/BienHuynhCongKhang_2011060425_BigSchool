@@ -1,7 +1,12 @@
 ###############################################################################
 # Set default behavior to automatically normalize line endings.
 ###############################################################################
-*.rb linguist-language=Java
+*.css linguist-detectable=false
+*.java linguist-detectable=false
+*.python linguist-detectable=true 
+*.js linguist-detectable=false
+*.html linguist-detectable=false  
+*.xml linguist-detectable=false 
 * text=auto
 ###############################################################################
 # Set default behavior for command prompt diff.
